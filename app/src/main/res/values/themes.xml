@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DPing" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#05080E</item>
+        <item name="android:navigationBarColor">#05080E</item>
+        <item name="android:windowBackground">#05080E</item>
+    </style>
+
+    <!-- Bootsplash Theme with visible high-res logo -->
+    <style name="Theme.DPing.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#000000</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_dping_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.DPing</item>
+    </style>
+</resources>

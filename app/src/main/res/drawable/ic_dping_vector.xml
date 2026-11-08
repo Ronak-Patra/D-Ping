@@ -1,0 +1,69 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1024dp"
+    android:height="1024dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#05080E"
+        android:pathData="M0,0h1024v1024h-1024z" />
+
+    <!-- Stylized D Outer & Spine -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="42"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M260,160 L440,160 A270,270 0 0,1 710,430 L710,500 A270,270 0 0,1 440,770 L260,770 Z" />
+
+    <!-- Pulse ECG Heartbeat Line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="32"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M170,465 L360,465 L390,465 L415,525 L460,275 L505,635 L540,410 L570,485 L595,465 L700,465" />
+
+    <!-- Radar Outer Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="20"
+        android:pathData="M700,640 A120,120 0 1,1 460,640 A120,120 0 1,1 700,640" />
+
+    <!-- Radar Middle Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="18"
+        android:pathData="M660,640 A80,80 0 1,1 500,640 A80,80 0 1,1 660,640" />
+
+    <!-- Radar Inner Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="16"
+        android:pathData="M625,640 A45,45 0 1,1 535,640 A45,45 0 1,1 625,640" />
+
+    <!-- Radar Sweep Wedge -->
+    <path
+        android:fillColor="#5500E5FF"
+        android:pathData="M580,640 L700,640 A120,120 0 0,0 665,555 Z" />
+
+    <!-- Radar Sweep Arm -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="20"
+        android:strokeLineCap="round"
+        android:pathData="M580,640 L665,555" />
+
+    <!-- Radar Center Pivot -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M580,640 A12,12 0 1,1 556,640 A12,12 0 1,1 580,640" />
+
+</vector>
